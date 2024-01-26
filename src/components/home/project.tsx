@@ -2,6 +2,7 @@ import React from "react";
 import Container from "@/components/container";
 import Card from "@/components/card";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Project() {
   return (
@@ -12,7 +13,13 @@ export default function Project() {
             <h2 className="text-slate-100 text-2xl font-semibold lg:text-4xl">
               Highlight Projects
             </h2>
-            <img src="/images/flash.jpg" alt="flash" className="size-6 ml-1" />
+            <Image
+              width={24}
+              height={24}
+              src="/images/flash.jpg"
+              alt="flash"
+              className="size-6 ml-1"
+            />
           </div>
           <p className="text-slate-400 text-xs lg:text-base font-light">
             Some of the best

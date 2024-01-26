@@ -2,6 +2,7 @@ import Container from "@/components/container";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import IconBorder from "./icon";
 import InputForm from "./input-form";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -13,7 +14,9 @@ export default function Contact() {
               <h1 className="text-slate-100 font-bold text-2xl lg:text-4xl">
                 Get in touch with me
               </h1>
-              <img
+              <Image
+                height={24}
+                width={24}
                 src={"/images/handshake-icon.png"}
                 alt="HandShake"
                 className="size-6 lg:size-9"

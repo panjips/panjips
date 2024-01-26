@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import Card from "@/components/card";
+import Image from "next/image";
 
 export default function Project() {
   return (
@@ -9,7 +10,13 @@ export default function Project() {
           <h1 className="text-slate-100 font-bold text-3xl lg:text-4xl">
             All Project
           </h1>
-          <img src="/images/flash.jpg" alt="flash" className="size-8" />
+          <Image
+            width={32}
+            height={32}
+            src={"/images/flash.jpg"}
+            alt="flash"
+            className="size-8"
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-8 content-between">
