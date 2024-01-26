@@ -6,10 +6,12 @@ import Project from "@/components/home/project";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Project />
-      <Footer />
+      <section className="h-screen bg-slate-950 flex flex-col">
+        <Navbar />
+        <Hero />
+        <Project />
+        <Footer />
+      </section>
     </>
   );
 }

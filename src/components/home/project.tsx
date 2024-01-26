@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Project() {
   return (
     <>
-      <Container className="bg-slate-950 pb-16 pt-4 lg:pt-16">
+      <Container className="bg-slate-950 pb-16 pt-4 lg:pt-16 flex-grow">
         <div>
           <div className="flex items-center pb-2">
             <h2 className="text-slate-100 text-2xl font-semibold lg:text-4xl">
@@ -23,10 +23,10 @@ export default function Project() {
           </div>
           <p className="text-slate-400 text-xs lg:text-base font-light">
             Some of the best
-            <span className="font-bold text-indigo-600">* </span>
+            <span className="font-bold text-indigo-500">* </span>
             projects ive created and its become a proof of my
-            <span className="font-bold text-indigo-600"> consistency</span> and
-            <span className="font-bold text-indigo-600"> commitment</span> to
+            <span className="font-bold text-indigo-500"> consistency</span> and
+            <span className="font-bold text-indigo-500"> commitment</span> to
             learn more and more.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-8 content-between">
