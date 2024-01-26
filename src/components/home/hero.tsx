@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="mt-4">
             <div className="lg:max-w-screen-sm">
               <h2 className="font-normal lg:text-2xl font-sans text-slate-300">
-                Hello i'am
+                Hello iam
               </h2>
               <Typed />
               <p className="font-normal text-xs lg:text-base text-slate-400">

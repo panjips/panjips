@@ -24,7 +24,7 @@ export default function Project() {
           <p className="text-slate-400 text-xs lg:text-base font-light">
             Some of the best
             <span className="font-bold text-indigo-600">* </span>
-            projects i've created and it's become a proof of my
+            projects ive created and its become a proof of my
             <span className="font-bold text-indigo-600"> consistency</span> and
             <span className="font-bold text-indigo-600"> commitment</span> to
             learn more and more.
@@ -34,7 +34,7 @@ export default function Project() {
               Navigate Jogja like a local with our detailed travel guide.
             </Card>
             <Card image="/images/mockup-rent-car.png" title="Rent n Ride">
-              At Rent n Ride, we understand that every journey is unique. That's
+              At Rent n Ride, we understand that every journey is unique. Thats
               why we offer flexible rental options.
             </Card>
             <Card image="/images/mockup-porto.png" title="Portofolio Website">

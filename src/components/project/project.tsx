@@ -24,7 +24,7 @@ export default function Project() {
             Navigate Jogja like a local with our detailed travel guide.
           </Card>
           <Card image={"/images/mockup-rent-car.png"} title="Rent n Ride">
-            At Rent n Ride, we understand that every journey is unique. That's
+            At Rent n Ride, we understand that every journey is unique. Thats
             why we offer flexible rental options.
           </Card>
           <Card image={"/images/mockup-porto.png"} title="Portofolio Website">
