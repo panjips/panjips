@@ -1,3 +1,6 @@
+import React from "react";
+import Image from "next/image";
+
 interface ICardProps {
   image: string;
   title: string;
@@ -8,9 +11,11 @@ export default function Card({ image, title, children }: ICardProps) {
   return (
     <>
       <div className="mt-4 w-full">
-        <img
+        <Image
           src={image}
-          alt=""
+          alt={`card-${title}`}
+          width={1000}
+          height={1000}
           className="rounded-lg transition ease-in-out hover:scale-105"
         />
         <h3 className="text-slate-100 font-semibold mt-2 lg:text-lg">

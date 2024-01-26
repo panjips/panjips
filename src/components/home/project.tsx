@@ -17,7 +17,7 @@ export default function Project() {
           <p className="text-slate-400 text-xs lg:text-base font-light">
             Some of the best
             <span className="font-bold text-indigo-600">* </span>
-            projects i’ve created and it’s become a proof of my
+            projects i{"'"}ve created and it{"'"}s become a proof of my
             <span className="font-bold text-indigo-600"> consistency</span> and
             <span className="font-bold text-indigo-600"> commitment</span> to
             learn more and more.

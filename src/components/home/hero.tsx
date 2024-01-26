@@ -1,6 +1,7 @@
 import Container from "@/components/container";
 import Button from "@/components/button";
 import { Typed } from "./typed";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -46,9 +47,11 @@ export default function Hero() {
             </div>
           </div>
           <div>
-            <img
-              src="/images/photo.jpeg"
+            <Image
+              src={"/images/photo.jpeg"}
               alt="PhotoProfile"
+              width={1000}
+              height={1000}
               className="rounded-2xl w-32 md:w-48"
             />
           </div>
