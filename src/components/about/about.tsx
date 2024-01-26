@@ -24,9 +24,9 @@ export default function About() {
           call me Panji. I am not just a informatics student, tech enthusiast
           and a big dreamer. Have interest with web development and mobile
           development especially android, also passionate to make design UI/UX.
-          From early 20{"`"}s, i dedicated my life to grow in this industry and
-          gain more experience with create some project and collaborating with
-          other people.
+          From early 20's, i dedicated my life to grow in this industry and gain
+          more experience with create some project and collaborating with other
+          people.
         </p>
         <h2 className="text-slate-100 font-semibold text-xl lg:text-3xl mt-8">
           Programming Language
