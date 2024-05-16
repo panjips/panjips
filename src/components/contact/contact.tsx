@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import IconBorder from "./icon";
 import InputForm from "./input-form";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -38,22 +39,31 @@ export default function Contact() {
             </h2>
             <div className="flex gap-5 mt-3">
               <IconBorder>
-                <FaInstagram
-                  size={32}
-                  className="text-slate-500 group-hover:text-slate-300 group-hover:ease-in group-hover:transition group-hover:delay-150"
-                />
+                <Link href="https://www.instagram.com/paanjip/" target="_blank">
+                  <FaInstagram
+                    size={32}
+                    className="text-slate-500 group-hover:text-slate-300 group-hover:ease-in group-hover:transition group-hover:delay-150"
+                  />
+                </Link>
               </IconBorder>
               <IconBorder>
-                <FaLinkedin
-                  size={32}
-                  className="text-slate-500 group-hover:text-slate-300 group-hover:ease-in group-hover:transition group-hover:delay-150"
-                />
+                <Link
+                  href="https://www.linkedin.com/in/panjipusaka/"
+                  target="_blank"
+                >
+                  <FaLinkedin
+                    size={32}
+                    className="text-slate-500 group-hover:text-slate-300 group-hover:ease-in group-hover:transition group-hover:delay-150"
+                  />
+                </Link>
               </IconBorder>
               <IconBorder>
-                <FaGithub
-                  size={32}
-                  className="text-slate-500 group-hover:text-slate-300 group-hover:ease-in group-hover:transition group-hover:delay-150"
-                />
+                <Link href="https://github.com/panjips" target="_blank">
+                  <FaGithub
+                    size={32}
+                    className="text-slate-500 group-hover:text-slate-300 group-hover:ease-in group-hover:transition group-hover:delay-150"
+                  />
+                </Link>
               </IconBorder>
             </div>
           </div>
@@ -61,7 +71,11 @@ export default function Contact() {
             <h3 className="text-slate-100 font-semibold text-xl lg:text-3xl">
               Send me a message
             </h3>
-            <form action="" className="mt-4">
+            <form
+              action="https://formsubmit.co/206fdef22beb609df147c182423fd279"
+              method="POST"
+              className="mt-4"
+            >
               <div className="flex gap-4 mb-4">
                 <InputForm
                   type="text"

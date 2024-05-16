@@ -30,6 +30,19 @@ export default function Project() {
           <Card image={"/images/mockup-porto.png"} title="Portofolio Website">
             My personal website for recruiter get first informations, etc.
           </Card>
+          <Card image={"/images/mockup-edusync.png"} title="Edusync Web API">
+            Developed an API for Student Management System that help teacher to orgnized their student.
+          </Card>
+          <Card image={"/images/mockup-walletfy.png"} title="Walletfy Web API">
+            Walletfy is a API for mobile app to manage your budget and expense.
+          </Card>
+          <Card
+            image={"/images/mockup-atma-kitchen.png"}
+            title="Atma Kitchen Multiplatform"
+          >
+            Final project for software development subject, start from
+            requirement gathering, database design, etc.
+          </Card>
         </div>
       </Container>
     </>

@@ -37,8 +37,12 @@ export default function Project() {
               At Rent n Ride, we understand that every journey is unique. Thats
               why we offer flexible rental options.
             </Card>
-            <Card image="/images/mockup-porto.png" title="Portofolio Website">
-              My personal website for recruiter get first informations, etc.
+            <Card
+              image="/images/mockup-atma-kitchen.png"
+              title="Atma Kitchen Multiplatform"
+            >
+              Final project for software development subject, start from
+              requirement gathering, database design, etc.
             </Card>
           </div>
           <Link
