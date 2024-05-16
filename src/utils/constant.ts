@@ -1,16 +1,17 @@
-const langSkill: string[] = ["Javascript", "Dart", "C", "Java", "PHP"];
+const langSkill: string[] = ["Javascript", "PHP", "Dart", "C", "Java"];
 
 const techSkill: string[] = [
-  "Flutter",
-  "Laravel",
+  "Nextjs",
   "Reactjs",
+  "Laravel",
+  "Expressjs",
+  "Flutter",
   "MySQL",
+  "PostgreSQL",
   "Nodejs",
   "Firebase",
   "Tailwind",
   "Bootstrap",
-  "MongoDB",
-  "Expressjs",
   "Github",
 ];
 
