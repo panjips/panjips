@@ -129,7 +129,7 @@ export const DetailProject = ({ slug }: { slug: string }) => {
     <>
       <Container className="bg-slate-950 flex-grow lg:py-4 lg:px-96 ">
         <div className="grid grid-cols-1 gap-3 lg:gap-6">
-          <div className="w-full max-w-3xl h-auto">
+          <div className="w-full max-w-3xl h-auto mx-auto">
             <Image
               src={project!.image}
               alt="image"

@@ -30,14 +30,23 @@ export default function Project() {
             learn more and more.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-8 content-between">
-            <Card image="/images/mockup-app.png" title="Yogyakarta Tourism App">
+            <Card
+              image="/images/mockup-app.png"
+              title="Yogyakarta Tourism App"
+              url="/project/yogyakarta-tourism-app"
+            >
               Navigate Jogja like a local with our detailed travel guide.
             </Card>
-            <Card image="/images/mockup-rent-car.png" title="Rent n Ride">
+            <Card
+              url="/project/rent-n-ride"
+              image="/images/mockup-rent-car.png"
+              title="Rent n Ride"
+            >
               At Rent n Ride, we understand that every journey is unique. Thats
               why we offer flexible rental options.
             </Card>
             <Card
+              url="/project/atma-kitchen-multiplatform"
               image="/images/mockup-atma-kitchen.png"
               title="Atma Kitchen Multiplatform"
             >
