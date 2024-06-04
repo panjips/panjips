@@ -1,6 +1,7 @@
 import Container from "@/components/container";
 import Button from "@/components/button";
 import { Typed } from "./typed";
+import { linkCV } from "@/utils/constant";
 import Image from "next/image";
 
 export default function Hero() {
@@ -40,7 +41,7 @@ export default function Hero() {
               </Button>
               <Button
                 className="ml-2 border-[1px] border-indigo-600  font-medium text-[8px] lg:text-sm"
-                path=""
+                path={linkCV}
               >
                 Curriculum Vitae
               </Button>

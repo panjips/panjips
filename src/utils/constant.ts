@@ -17,4 +17,7 @@ const techSkill: string[] = [
 
 const otherSkill: string[] = ["Figma", "Adobe Photoshop", "Adobe Premiere"];
 
-export { techSkill, otherSkill, langSkill };
+const linkCV: string =
+  "https://drive.google.com/file/d/1OERS7yOUj5PFFmU1znFmmYjbZ2Y6Dnjr/view?usp=sharing";
+
+export { techSkill, otherSkill, langSkill, linkCV };
